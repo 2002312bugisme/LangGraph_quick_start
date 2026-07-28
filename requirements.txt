@@ -1,0 +1,17 @@
+# LangGraph 快速入门 Demo - 依赖清单
+# 安装方式：pip install -r requirements.txt
+
+# LangGraph 核心框架（构建 Agent 和状态图）
+langgraph>=0.4.0
+
+# LangChain 核心库
+langchain-core>=0.3.0
+
+# OpenAI 兼容接口（用于调用 DeepSeek 等模型）
+langchain-openai>=0.3.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 数据验证（用于结构化输出）
+pydantic>=2.0.0
